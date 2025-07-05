@@ -1,0 +1,162 @@
+/* font link--------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FEEBF6;
+}
+h1,h2,h3,i{ 
+    font-size: 15px;
+    font-weight: 300;
+    color: #FEEBF6;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.main_box{
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    background-image: url("https://wallpaperaccess.com/full/1761719.jpg");
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.weather_box{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.top_part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.city_location{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FEEBF6;
+}
+input::placeholder{
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: none;
+    color: #E9ECFF;
+    opacity: 50%;
+}
+.input_box{
+    display: flex;
+}
+.input_city{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: #03346E;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.search_btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #E9ECFF;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+.middle_part{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.temp_box{
+    display: flex;
+    align-items: center;
+}
+.temp_num{
+    font-size: 110px;
+    font-weight: 500;
+    color: #FEEBF6;
+}
+.temp_box h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FEEBF6;
+    margin-left: 6px;
+}
+.weather_typebox .weather_type{
+    font-size: 40px;
+    font-weight: 200;
+    color: #FEEBF6;
+    margin-left: 18px;
+
+}
+.cloud_type_box{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cloud_type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cloud_type img{
+    width: 130px;
+}
+.wind_type{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.wind_type ul li{
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+.bottom_part{
+    width: 900px;
+    height: 200px;
+    border-radius: 15px;
+    background: rgba(169, 201, 240, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.bottom_part div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom_part div h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.bottom_part div img{
+    width: 60px;
+}

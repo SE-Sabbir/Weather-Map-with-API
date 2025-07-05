@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+</head>
+<body>
+    <div class="main_box">
+        <div class="weather_box">
+            <div class="top_part">
+                <div class="city_box">
+                    <h1 class="city_location">City</h1>
+                    <h2 class="city_time">Time & Date</h2>
+                </div>
+                <div class="input_box">
+                    <input class="input_city" type="text" placeholder="Enter city name">
+                    <button class="search_btn" >Search</button>
+                </div>
+            </div>
+            <div class="middle_part">
+                <div class="temp_box">
+                    <h1 class="temp_num">18</h1>
+                    <div class="weather_typebox">
+                        <h2>°C <span></span></h2>
+                        <h2 class="weather_type">Clear</h2>
+                    </div>
+                </div>
+                <div class="cloud_type_box">
+                    <div class="cloud_type">
+                        <img src="images/clear.png" alt="weather icon" class="cloud_type_img">
+                    </div>
+                    <div class="wind_type">
+                        <ul>
+                            <li><i class="fa-regular fa-temperature-three-quarters"></i></li>
+                            <li><i class="fa-regular fa-droplet-degree"></i></li>
+                            <li><i class="fa-regular fa-wind"></i></li>
+                        </ul>
+                        <ul>
+                            <li><h2 class="weather_feels">Feels like : 0 °C</h2></li>
+                            <li><h2 class="weather_humidity">Humidity : 0 %</h2></li>
+                            <li><h2 class="weather_wind">Wind : 0 m/s</h2></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_part">
+            <div>
+                <h2>Friday</h2>
+                <img src="images/haze.png" alt="day weather">
+                <h3>23°-14°</h3>
+                <h2>Haze</h2>
+            </div>
+            <div>
+                <h2>Saturday</h2>
+                <img src="images/clear.png" alt="day weather">
+                <h3>26°-18°</h3>
+                <h2>Clear Sky</h2>
+            </div>
+            <div>
+                <h2>Sunday</h2>
+                <img src="images/rain.png" alt="day weather">
+                <h3>24°-17°</h3>
+                <h2>Light Rain</h2>
+            </div>
+            <div>
+                <h2>Monday</h2>
+                <img src="images/thunderstorm.png" alt="day weather">
+                <h3>23°-14°</h3>
+                <h2>Thunderstorm</h2>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
