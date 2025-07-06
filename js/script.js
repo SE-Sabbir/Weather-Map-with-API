@@ -22,7 +22,7 @@ const weatherImage = {
 }
 
 search_btn.addEventListener('click' , ()=>{
-    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${input_city.value},&limit=1&appid=c69a0d02e0a3f876b5a4bb57a46a300f`)
+    fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${input_city.value},&limit=1&appid=c69a0d02e0a3f876b5a4bb57a46a300f`)
     .then((res)=>res.json())
     .then((data)=>{
         fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${data[0].lat}&lon=${data[0].lon}&appid=c69a0d02e0a3f876b5a4bb57a46a300f`)
