@@ -84,6 +84,7 @@ input::placeholder{
     font-size: 17px;
     border-radius: 10px;
     margin-left: -20px;
+    cursor: grab;
 }
 .middle_part{
     width: 800px;
